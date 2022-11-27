@@ -1,0 +1,16 @@
+<block>
+  <name>Signal src</name>
+  <key>src_signal_src</key>
+  <category>[SRC]</category>
+  <import>import src</import>
+  <make>src.signal_src($filename)</make>
+  <param>
+    <name>Filename</name>
+    <key>filename</key>
+    <type>file_open</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>
